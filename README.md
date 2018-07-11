@@ -10,5 +10,6 @@ This repo contains all the necessary hardware and software information about IoT
 ## Resources
 The cheapst SOC that supports IEEE 802.11 standard
 [ESP8266](https://tttapa.github.io/ESP8266/Chap04%20-%20Microcontroller.html)
+
 Lua based firmware to simplify application programming
 [Nodemcu - Lua](https://nodemcu.readthedocs.io/en/master/)
