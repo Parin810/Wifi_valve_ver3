@@ -9,4 +9,5 @@ This repo contains all the necessary hardware and software information about IoT
 7. DRV8832 as driver for latching solenoid
 ## Resources
 [ESP8266](https://tttapa.github.io/ESP8266/Chap04%20-%20Microcontroller.html)
+
 [Nodemcu - Lua](https://nodemcu.readthedocs.io/en/master/)
