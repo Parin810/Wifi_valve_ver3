@@ -13,3 +13,17 @@ The cheapst SOC that supports IEEE 802.11 standard
 
 Lua based firmware to simplify application programming
 [Nodemcu - Lua](https://nodemcu.readthedocs.io/en/master/)
+
+ESP8266 power consumption
+[ESP8266 current profile](https://jeelabs.org/book/1526f/)
+
+## Components Used 
+(click to see datasheet)
+
+[ESP8266-07](https://www.mikrocontroller.net/attachment/338570/Ai-thinker_ESP-07_WIFI_Module-EN.pdf)
+
+[AP2112](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
+
+[MCP73831](http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf)
+
+[BQ24210](http://www.ti.com/lit/ds/symlink/bq24210.pdf)
