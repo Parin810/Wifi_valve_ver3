@@ -1,5 +1,5 @@
 --creating client with the macid as the client id 
-m = mqtt.Client(wifi.sta.getmac(),60)   --10sec keep alive
+m = mqtt.Client(wifi.sta.getmac(),60)   --60sec keep alive
 --lwt function sends the last will and testament message to tbe sent to the broker in case it goes offline
 --m:lwt('lwt','offline',0,0)    
 
@@ -34,40 +34,40 @@ m:on('message', function(conn, topic, data)
 end)
 
 function startValve()
-	gpio.mode(pin13,gpio.OUTPUT)
-	gpio.write(pin13,gpio.LOW)
-	tmr.delay(1000)
-    gpio.write(pin12,gpio.HIGH)
-    gpio.write(pin14,gpio.LOW)
-
+	gpio.mode(pin4,gpio.OUTPUT) --enable driver IC
+	gpio.write(pin4,gpio.LOW) --enable driver IC, PMOS ON
+	tmr.delay(1000) -- time to settle
+    	gpio.write(pin12,gpio.HIGH)
+    	gpio.write(pin14,gpio.LOW)
     tmr.alarm(2,80,0,function()
 	     gpio.write(pin12,gpio.LOW)
 	     gpio.write(pin14,gpio.LOW)
     end)
-    
+    gpio.write(pin4,gpio.HIGH) --disable driver IC
+  
 end
 
 
-function irrigate(r_time)
-	Time = 1000000*30*r_time
-	rtcmem.write32(5,string.byte('e'))
+function irrigate(r_time) --receive time from user
+	Time = 1000000*30*r_time --multiply this with 30 seconds
+	rtcmem.write32(5,string.byte('e')) --write flag to RTC memory
 	startValve()
-	wifi.sta.disconnect()
+	tmr.stop(0) -- stop active device timer
+	wifi.sta.disconnect() 
 	print("sleep")
 	node.dsleep(Time)
 end
 
 function stopValve()
-	gpio.mode(pin13,gpio.OUTPUT)
-	gpio.write(pin13,gpio.LOW)
+	gpio.mode(pin4,gpio.OUTPUT) 
+	gpio.write(pin4,gpio.LOW)
 	tmr.delay(1000)
     gpio.write(pin14,gpio.HIGH)
     gpio.write(pin12,gpio.LOW)
-
      tmr.alarm(2,80,0,function()
 	     gpio.write(pin12,gpio.LOW)
 	     gpio.write(pin14,gpio.LOW)
      end)
-
+	gpio.write(pin4,gpio.HIGH) --disable driver IC
 end
 
