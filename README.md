@@ -17,13 +17,24 @@ Lua based firmware to simplify application programming
 ESP8266 power consumption
 [ESP8266 current profile](https://jeelabs.org/book/1526f/)
 
-## Components Used 
+## Major Components Used 
 (click to see datasheet)
 
 [ESP8266-07](https://www.mikrocontroller.net/attachment/338570/Ai-thinker_ESP-07_WIFI_Module-EN.pdf)
 
+LDO
 [AP2112](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
 
+Lipo/ion charger
 [MCP73831](http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf)
 
+Solar lipo/ion charger 
 [BQ24210](http://www.ti.com/lit/ds/symlink/bq24210.pdf)
+
+PMOS switch 
+[PMV65XP](https://assets.nexperia.com/documents/data-sheet/PMV65XP.pdf)
+
+## Loading LUA firmware
+Download Nodemcu flasher from [here](https://github.com/nodemcu/nodemcu-flasher). for windows. For Linux use esptool.py (see repository for details)
+
+
