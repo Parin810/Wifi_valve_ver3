@@ -36,5 +36,6 @@ PMOS switch
 
 ## Loading LUA firmware
 Download Nodemcu flasher from [here](https://github.com/nodemcu/nodemcu-flasher). for windows. For Linux use esptool.py (see repository for details)
+Look at this [page](https://nodemcu.readthedocs.io/en/master/en/flash/) from nodemcu lua documentation
 
 
