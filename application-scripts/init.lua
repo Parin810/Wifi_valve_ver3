@@ -15,6 +15,8 @@ gpio.write(pin13,gpio.HIGH) --set as high to disable charging initially
 gpio.write(pin12,gpio.LOW) --in1 for driver (sleep mode)
 gpio.write(pin14,gpio.LOW) --in2 for driver (sleep mode)
 
+-- gpio.mode(pin4,gpio.OUTPUT) --enable driver IC
+-- gpio.write(pin4,gpio.LOW) --enable driver IC, PMOS ON
 
 node.setcpufreq(node.CPU80MHZ) --reduce operating freq for power saving
 
@@ -44,8 +46,8 @@ print(val)
 rtcmem.write32(5,0)
 
 station_cfg={}
-station_cfg.ssid="ERTS LAB 304"
-station_cfg.pwd="balstre403"
+station_cfg.ssid="ERTS LAB 101"
+station_cfg.pwd="balstre101"
 --station_cfg.save=false
 wifi.sta.config(station_cfg)
 

@@ -10,13 +10,13 @@ m:on('message', function(conn, topic, data)
   print(topic .. ':')
   if topic == 'esp/'..macid..'/irrigate' then
 	irrigate(data)
-  end
-  if data ~= nil then
-    print(data)
-  end 
+  
+  -- if data ~= nil then
+    -- print(data)
+  -- end 
 -- Use the data to turn the valve ON or OFF 
   
-  if data == "1" then 
+  elseif data == "1" then 
     startValve() 
   elseif data == "0" then 
     stopValve()
@@ -30,6 +30,7 @@ m:on('message', function(conn, topic, data)
 	print ("sleep")
     node.dsleep(sleepTime)
    else
+	 print(data)
   end
 end)
 
