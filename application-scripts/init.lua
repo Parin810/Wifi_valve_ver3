@@ -57,7 +57,7 @@ wifi.sta.config(station_cfg)
 -- }
 
 -- --wifi.sta.sleeptype(wifi.LIGHT_SLEEP)
-
+--wifi.sta.setip(cfg)
 wifi.sta.connect()
 
 
