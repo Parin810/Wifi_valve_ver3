@@ -1,0 +1,37 @@
+Part	Value	Device	Package	Description	MF	MPN	OC_FARNELL	OC_NEWARK	PACKAGE	PROD_ID	SF_SKU	SPICEMODEL	SPICEPREFIX	SPICETYPE	SUPPLIER
+A/M		JP2E	JP2	JUMPER											
+BAT		JP1E	JP1	JUMPER											
+C1	0.1uF	C-EUC0805K	C0805K	"CAPACITOR, European symbol"											
+C2	10µF	CC1206	C1206	"CAPACITOR, European symbol"								NONE	C		
+C3	10µF	CC1206	C1206	"CAPACITOR, European symbol"								NONE	C		
+C4		C-EUC1206	C1206	"CAPACITOR, European symbol"											
+C5		C-EUC1206	C1206	"CAPACITOR, European symbol"											
+DPDT		JP1E	JP1	JUMPER											
+DRV8832	AD7992	AD7992	MSOP10	16-Bit DAC with Serial Data Interface											
+ELED		JP1E	JP1	JUMPER											
+ENABLE		JP1E	JP1	JUMPER											
+ESP	ESP07-16PIN	ESP07-16PIN	ESP07-16PIN												
+GPIO-4		MPT2	2POL254	PHOENIX CONNECTOR			unknown	unknown							
+LDO	TS5205	TS5205	SOT25	150mA Low Noise LDO Voltage Regulator with Enable											
+LED		LED_E	LED_1206	LED								NONE	D	diode	
+MANUAL		MPT2	2POL254	PHOENIX CONNECTOR			unknown	unknown							
+NTC		JP1E	JP1	JUMPER											
+PROG	MOMENTARY-SWITCH-SPST-SMD-5.2MM	MOMENTARY-SWITCH-SPST-SMD-5.2MM	TACTILE_SWITCH_SMD_5.2MM	Momentary Switch (Pushbutton) - SPST						SWCH-08247	COM-08720				
+Q1	BSS84	BSS84	SOT23	P-CHANNEL MOS FET											
+R1	2Meg	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R2	10k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R3	10k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R4	10k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R5	3.7k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R6	560k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R7	10k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R8	10k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R9	1.2k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R10	22k	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+R11	100	R-EU_R1206	R1206	"RESISTOR, European symbol"											
+RESET	MOMENTARY-SWITCH-SPST-SMD-5.2MM	MOMENTARY-SWITCH-SPST-SMD-5.2MM	TACTILE_SWITCH_SMD_5.2MM	Momentary Switch (Pushbutton) - SPST						SWCH-08247	COM-08720				
+RX-TX		MPT2	2POL254	PHOENIX CONNECTOR			unknown	unknown							
+SOLAR		JP1E	JP1	JUMPER											
+U1	BQ24210DQCT	BQ24210DQCT	SON50P200X300X80-11N	Single Cell Li-Ion Battery Solar Charger		BQ24210DQCT	1903633	56T0491	SON-10						TEXAS INSTRUMENTS
+X2		MPT2	2POL254	PHOENIX CONNECTOR			unknown	unknown							
+X4		AK300/2	AK300/2	CONNECTOR			unknown	unknown							

@@ -3057,7 +3057,7 @@ design rules under a new name.</description>
 <element name="BAT" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" value="" x="2.496003125" y="26.161809375" smashed="yes">
 <attribute name="VALUE" x="5.417003125" y="23.621809375" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value="0.1uF" x="30.56931875" y="28.054725" smashed="yes" rot="R270">
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value="" x="30.56931875" y="28.054725" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.54593125" y="24.963796875" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="28.66931875" y="29.054725" size="1.016" layer="27" rot="R270"/>
 </element>
@@ -3097,12 +3097,12 @@ design rules under a new name.</description>
 <element name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" package="SOT23" value="BSS84" x="26.845934375" y="28.290378125" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.53010625" y="27.15545625" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="2Meg" x="10.9309625" y="49.239665625" rot="R270"/>
-<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="22k" x="15.81788125" y="19.386634375" smashed="yes">
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="" x="10.9309625" y="49.239665625" rot="R270"/>
+<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="" x="15.81788125" y="19.386634375" smashed="yes">
 <attribute name="NAME" x="14.831328125" y="20.737621875" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="14.54788125" y="16.846634375" size="1.27" layer="27"/>
 </element>
-<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="100" x="27.684478125" y="33.649990625" smashed="yes">
+<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="10" x="27.684478125" y="33.649990625" smashed="yes">
 <attribute name="NAME" x="26.554515625" y="35.585059375" size="0.8128" layer="25"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="10k" x="18.595375" y="45.629396875" smashed="yes" rot="R180">
@@ -3114,7 +3114,7 @@ design rules under a new name.</description>
 <element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="10k" x="13.64106875" y="36.39831875" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.52221875" y="36.59139375" size="1.016" layer="25" rot="R180"/>
 </element>
-<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="560k" x="6.325984375" y="46.027490625" smashed="yes">
+<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="" x="6.325984375" y="46.027490625" smashed="yes">
 <attribute name="NAME" x="1.77606875" y="45.36145625" size="1.016" layer="25"/>
 <attribute name="VALUE" x="5.055984375" y="43.487490625" size="1.27" layer="27"/>
 </element>
@@ -3124,7 +3124,7 @@ design rules under a new name.</description>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="10k" x="20.780025" y="40.924278125" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.980434375" y="37.69920625" size="1.016" layer="25"/>
 </element>
-<element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="1.2k" x="13.82911875" y="31.759759375" smashed="yes" rot="R180">
+<element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="" x="13.82911875" y="31.759759375" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.994534375" y="29.964040625" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="15.09911875" y="34.299759375" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -3156,7 +3156,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="SON-10" x="12.750478125" y="23.75469375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" x="12.750478125" y="23.75469375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="3.7k" x="10.213921875" y="19.00561875" smashed="yes" rot="R90">
+<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" value="" x="10.213921875" y="19.00561875" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.65230625" y="18.1244" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="12.753921875" y="17.73561875" size="1.27" layer="27" rot="R90"/>
 </element>
