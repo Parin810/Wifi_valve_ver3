@@ -4,7 +4,7 @@ This repo contains all the necessary hardware and software information about IoT
 2. Uses MQTT as the communication protocol
 3. BQ24210 or MCP73831 based solar harvestor
 4. Uses Nodemcu custom build firmware
-5. Auto modem sleep enalbed (DTIM3,4,5)
+5. Auto modem sleep enabed (DTIM3,4,5)
 6. The valve used is a latching solenoid 
 7. DRV8832 as driver for latching solenoid
 ## Resources
